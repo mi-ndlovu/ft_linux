@@ -14,6 +14,8 @@ function 	is_installed {
 	fi
 }
 
+
+
 function	end {
 	RESULT=$((100*SUCESS/TOTAL));
 	printf "======================\nResults: $SUCESS/$TOTAL\n";
